@@ -156,9 +156,9 @@ ul {
 .button__colored:hover {
     background-position: 100px;
     color: #fff;
-    -webkit-box-shadow: 0px 0px 14px 1px #808080;
-    -moz-box-shadow: 0px 0px 14px 1px #808080;
-    box-shadow: 0px 0px 14px 1px #808080;
+    -webkit-box-shadow: 0 0 14px 1px #808080;
+    -moz-box-shadow: 0 0 14px 1px #808080;
+    box-shadow: 0 0 14px 1px #808080;
 }
 
 .slider {
@@ -176,9 +176,9 @@ ul {
 .slider__item:hover {
     top: 5px;
     text-decoration: none;
-    -webkit-box-shadow: 0px -5px 10px 2px #808080;
-    -moz-box-shadow: 0px -5px 10px 2px #808080;
-    box-shadow: 0px -5px 10px 2px #808080;
+    -webkit-box-shadow: 0 -5px 10px 2px #808080;
+    -moz-box-shadow: 0 -5px 10px 2px #808080;
+    box-shadow: 0 -5px 10px 2px #808080;
 }
 .slider__item__link:hover {
     text-decoration: none;
@@ -205,7 +205,7 @@ ul {
 }
 .slider__button:hover {
     background-color: #3c3b3b38;
-    box-shadow: 0px 0px 15px 15px #00000029;
+    box-shadow: 0 0 15px 15px #00000029;
 }
 .slider__button::after {
     position: absolute;
@@ -213,9 +213,9 @@ ul {
     height: 60px;
     top: calc(50% - 65px);
     left: 1px;
-    -webkit-box-shadow: 0px 0px 13px 0px #cccccc;
-    -moz-box-shadow: 0px 0px 13px 0px #cccccc;
-    box-shadow: 0px 0px 13px 0px #cccccc;
+    -webkit-box-shadow: 0 0 13px 0 #cccccc;
+    -moz-box-shadow: 0 0 13px 0 #cccccc;
+    box-shadow: 0 0 13px 0 #cccccc;
     -webkit-border-radius: 30px;
     -moz-border-radius: 30px;
     border-radius: 30px;
@@ -399,7 +399,7 @@ ul {
 
 
 .main-section {
-    background-image: url(../img/background.svg);
+    background-image: url(../img/background-comp.svg);
     background-size: 1005px;
     background-repeat: no-repeat;
     background-position: 756px 27px;
@@ -484,13 +484,13 @@ ul {
     background: url(../img/icons-services.png) left no-repeat;
 }
 .services__list__item__icon__devices {
-    background-position: -89px 0px;
+    background-position: -89px 0;
 }
 .services__list__item__icon__programming {
-    background-position: -174px 0px;
+    background-position: -174px 0;
 }
 .services__list__item__icon__coding {
-    background-position: -257px 0px;
+    background-position: -257px 0;
 }
 .services__list__item__description {
     text-align: center;
@@ -539,7 +539,7 @@ ul {
 }
 .taxes__note::before {
     position: absolute;
-    left: 0px;
+    left: 0;
     top: -1px;
     content: '*';
 }
@@ -604,7 +604,7 @@ ul {
     font-size: 0;
 }
 .footer__others__socials__item__facebook {
-    background-position: -54px 0px;
+    background-position: -54px 0;
 }
 .footer__others__socials__item__twitter {
     background-position: -108px 0;
@@ -703,6 +703,10 @@ ul {
         display: none;
     }
 
+    .main-section {
+        background-size: 800px;
+        background-position: 480px 150px;
+    }
     .main-block__info {
         margin-top: 177px;
         padding-left: 36px;
@@ -749,7 +753,7 @@ ul {
         -webkit-justify-content: space-between;
         -moz-justify-content: space-between;
         justify-content: space-between;
-        padding: 10px 25px 0px;
+        padding: 10px 25px 0;
     }
 
     .examples__order {
@@ -774,7 +778,7 @@ ul {
     }
     .footer__others {
         margin-right: 5px;
-        padding: 0px 34px 0 44px;
+        padding: 0 34px 0 44px;
         width: 326px;
     }
     .footer__contacts__item {
@@ -819,7 +823,7 @@ ul {
         margin-right: 20px;
     }
     .top-block__contacts {
-        margin-top: 0px;
+        margin-top: 0;
         margin-right: 34px;
     }
     .button__call__mobile {
@@ -861,7 +865,7 @@ ul {
         display: none;
     }
     .slider__item__title {
-        margin: 12px 0 0px;
+        margin: 12px 0 0;
         padding: 33px 0 23px;
         font-size: 18px;
     }
@@ -935,8 +939,8 @@ ul {
         letter-spacing: 0.5px;
     }
     .main-block__position {
-        margin: 0px;
-        padding: 0px 23px;
+        margin: 0;
+        padding: 0 23px;
         font-size: 15px;
         letter-spacing: 0.5px;
         line-height: 24px;
@@ -966,13 +970,13 @@ ul {
         background-size: cover;
     }
     .services__list__item__icon__devices {
-        background-position: -65px 0px;
+        background-position: -65px 0;
     }
     .services__list__item__icon__programming {
-        background-position: -129px 0px;
+        background-position: -129px 0;
     }
     .services__list__item__icon__coding {
-        background-position: -192px 0px;
+        background-position: -192px 0;
     }
     .services__list__item__description {
         font-size: 16px;
@@ -1032,7 +1036,7 @@ ul {
         font-size: 14px;
     }
     .footer__contacts__email span {
-        letter-spacing: 0px;
+        letter-spacing: 0;
     }
     .footer__others {
         padding: 15px 0;
