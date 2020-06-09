@@ -1,0 +1,32 @@
+p {
+    text-indent: 20px;
+    text-align: justify;
+}
+
+.color-indianred {
+    color: #cd5c5c;
+}
+
+.color-orange {
+    color: #ffa500;
+}
+
+.color-gold {
+    color: #ffd700;
+}
+
+.color-darkgreen {
+    color: #006400;
+}
+
+.color-cornflower-blue {
+    color: #6495ed;
+}
+
+.color-blue {
+    color: #00f;
+}
+
+.color-purple {
+    color: #800080;
+}

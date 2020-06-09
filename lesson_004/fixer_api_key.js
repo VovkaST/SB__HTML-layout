@@ -1,0 +1,1 @@
+const FIXER_API_KEY = 'ea7f5d9b33e8b3b0d242b9b773e60ccb'

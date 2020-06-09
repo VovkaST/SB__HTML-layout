@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/request-form.css">
+    <title>Заявка на конференцию</title>
+</head>
+
+<body>
+    <form method="post" action="" enctype="multipart/form-data">
+        <h2>Отправка заявки на конференцию</h2>
+        <section class="main-data">
+            <h3>Основные данные</h3>
+            <p><b>* Фамилия, имя, отчество:</b></p>
+            <input type="text" name="name" value="" size="40" title="Фамилия, имя, отчество" required>
+            <p><b>Дата рождения:</b></p>
+            <input type="date" name="bday" value="" title="Дата рождения">
+            <p><b>Пол:</b></p>
+            <div class="sex">
+                <label><input type="radio" name="sex" value="m">&nbsp;мужской</label>
+                <label><input type="radio" name="sex" value="f">&nbsp;женский</label>
+            </div>
+        </section>
+        <section class="personal-data">
+            <h3>Данные для создания личного кабинета</h3>
+            <p><b>* Адрес электронной почты:</b></p>
+            <input type="email" name="email" value="" size="40" title="Адрес электронной почты" required>
+            <p><b>* Пароль для создания личного кабинета:</b></p>
+            <input type="password" name="password" value="" size="40" title="Пароль для создания личного кабинета" required>
+            <p><b>* Подтверждение пароля:</b></p>
+            <input type="password" name="password_conform" value="" size="40" title="Подтверждение пароля" required>
+        </section>
+        <section class="materials">
+            <h3>Материалы для конференции</h3>
+            <p><b>* Тема доклада:</b></p>
+            <input type="text" name="theme" value="" size="40" title="Тема доклада" required>
+            <p><b>* Тезисы доклада (не более 1000 символов):</b></p>
+            <textarea name="thesis" cols="40" rows="10" maxlength="1000" title="Тезисы доклада" required></textarea>
+            <p><b>Файл презентации:</b></p>
+            <input type="file" name="presentation[]" multiple>
+        </section>
+        <section class="addititional-options">
+            <h3>Дополнительные опции</h3>
+            <label><input type="checkbox" name="options[]" value="hotel">Проживание в отеле</label><br>
+            <label><input type="checkbox" name="options[]" value="breakfast" checked>Завтрак</label><br>
+            <label><input type="checkbox" name="options[]" value="lunch">Обед</label><br>
+            <label><input type="checkbox" name="options[]" value="dinner">Ужин</label><br>
+        </section>
+        <hr>
+        <input type="submit" value="Отправить">
+        <hr>
+        <small>* Поля, отмеченные звёздочкой, являются обязательными для заполнения</small>
+    </form>
+</body>
+
+</html>

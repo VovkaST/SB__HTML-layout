@@ -1,0 +1,7 @@
+.sex label:first-child {
+    margin-right: 9px;
+}
+
+.addititional-options label>input {
+    margin-right: 7px;
+}

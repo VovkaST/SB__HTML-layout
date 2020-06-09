@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 45 45">
+    <defs>
+        <linearGradient id="BgGradientTop" gradientTransform="rotate(135)">
+            <stop offset="5%"  stop-color="#ff2f96"/>
+            <stop offset="80%" stop-color="#ff4d83"/>
+        </linearGradient>
+        <linearGradient id="BgGradientMiddle" gradientTransform="rotate(135)">
+            <stop offset="5%"  stop-color="#ff3e8c"/>
+            <stop offset="80%" stop-color="#ff7968"/>
+        </linearGradient>
+        <linearGradient id="BgGradientBottom" gradientTransform="rotate(135)">
+            <stop offset="5%"  stop-color="#ff6d70"/>
+            <stop offset="80%" stop-color="#ff8f5a"/>
+        </linearGradient>
+    </defs>
+    <rect fill="url(#BgGradientTop)" x="0" y="0" width="100" height="6"/>
+    <rect fill="url(#BgGradientMiddle)" x="0" y="13" width="100" height="6"/>
+    <rect fill="url(#BgGradientBottom)" x="0" y="26" width="100" height="6"/>
+</svg>

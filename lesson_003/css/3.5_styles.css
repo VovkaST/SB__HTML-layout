@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+    outline: none;
+}
+body {
+    min-width: 1024px;
+}
+ul {
+    list-style: none;
+}
+.clearfix {
+    clear: both;
+}
+.fixed-container {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.top-block {
+    padding: 19px 0;
+    background-color: #00122f;
+    color: #fff;
+}
+.top-block a {
+    color: #fff;
+}
+.top-block time {
+    float: right;
+}
+
+.left-block {
+    float: left;
+}
+.right-block {
+    float: right;
+}
+
+header .info-block {
+    margin: 39px 0 36px;
+}
+.header-item {
+    display: inline-block;
+}
+.header-item:last-child {
+    margin-right: 0;
+}
+.header-item.city {
+    position: relative;
+    top: -14px;
+    margin-left: 57px;
+}
+
+.header-item.city .custom-select {
+    color: #448ccb;
+}
+
+.header-item.weather {
+    position: relative;
+    top: -1px;
+    width: 50px;
+    padding-left: 37px;
+    margin-right: 38px;
+    color: #91919f;
+    cursor: default;
+}
+.header-item.weather::before {
+    content: '';
+    position: absolute;
+    background-size: 29px 22px;
+    top: -8px;
+    left: 0;
+    width: 35px;
+    height: 30px;
+}
+.header-item.weather.cloud::before {
+    background: url(/img/icon-weather-cloud.png) left no-repeat;
+}
+
+.search-field {
+    height: 44px;
+}
+.header-item.search input {
+    width: 318px;
+    height: 100%;
+    padding: 10px 35px 10px 18px;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 14px;
+}
+nav a {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+nav a:hover {
+    color: #448ccb;
+}
+nav li::after {
+    content: '/';
+    color: #91919f;
+    margin-left: 20px;
+}
+nav li:last-child::after {
+    content: '';
+}
+
+.select-wrapper {
+    display: inline-block;
+    position: relative;
+    font-size: 0;
+}
+  
+.select-wrapper::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 15px;
+    height: 1px;
+    border-bottom: 2px dashed #448ccb;
+}
+  
+.custom-select {
+    border: 0;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    font-size: 16px;
+    padding-right: 15px;
+    background: url(/img/angle-arrow-down.png) 100% center no-repeat;
+    background-size: 10px 10px;
+    cursor: pointer;
+}
