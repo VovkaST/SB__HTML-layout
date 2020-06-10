@@ -89,6 +89,9 @@ body, html {
 ul {
     list-style: none;
 }
+address {
+    font-style: normal;
+}
 .fixed-container {
     width: 1200px;
     margin: 0 auto;
@@ -435,6 +438,7 @@ ul {
 .main-block__position {
     margin-top: 14px;
     color: #8993ad;
+    font-weight: normal;
     font-size: 25px;
 }
 .main-block__more {
@@ -533,6 +537,7 @@ ul {
 }
 .taxes__note {
     position: relative;
+    display: block;
     padding-left: 13px;
     font-size: 18px;
     line-height: 30px;
@@ -557,8 +562,16 @@ ul {
 .navbar__footer__item {
     line-height: 1em;
 }
+.footer__address {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
 .footer__contacts {
-    margin-left: 123px;
+    margin-right: 217px;
     padding-top: 5px;
 }
 .footer__contacts__item {
@@ -582,7 +595,7 @@ ul {
     font-size: 0.908em;
 }
 .footer__others {
-    margin-right: 21px;
+    margin-right: 23px;
     width: 248px;
 }
 .footer__others__button {
@@ -774,7 +787,7 @@ ul {
         padding: 100px 0 61px 42px;
     }
     .footer__contacts {
-        margin-left: 83px;
+        margin-right: 94px;
     }
     .footer__others {
         margin-right: 5px;
@@ -990,7 +1003,7 @@ ul {
         padding: 42px 10px 41px 20px;
     }
     .taxes__header {
-        margin-bottom: 33px;
+        margin-bottom: 31px;
         font-size: 26px;
         letter-spacing: 1px;
         line-height: 40px;
@@ -1006,7 +1019,16 @@ ul {
         -webkit-box-direction: normal;
         -ms-flex-direction: column;
         flex-direction: column;
-        padding: 40px 0 34px 20px;
+        padding: 40px 0 33px 20px;
+    }
+    .footer__address {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
     }
     .navbar__footer {
         font-size: 15px;
@@ -1016,7 +1038,8 @@ ul {
         letter-spacing: 0;
     }
     .footer__contacts {
-        padding: 33px 32px 9px;
+        padding: 33px 32px 10px;
+        margin-right: 0;
         margin-left: 0;
     }
     .footer__contacts__item {
